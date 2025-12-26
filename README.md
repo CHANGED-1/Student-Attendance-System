@@ -150,7 +150,7 @@ Make sure you have the following installed:
 
 2. **Initialize React app (if not already done):**
    ```bash
-   npx create-react-app .
+   npx create vite@latest . -- --template react
    ```
 
 3. **Install dependencies:**
@@ -161,8 +161,8 @@ Make sure you have the following installed:
 4. **Configure Tailwind CSS:**
    
    ```bash
-   npm install -D tailwindcss
-   npx tailwindcss init
+   npm install -D tailwindcss@3.4.1 postcss autoprefixer
+   npx tailwindcss init -p
    ```
    
    Update `tailwind.config.js`:
