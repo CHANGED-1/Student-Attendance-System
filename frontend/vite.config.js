@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': { 
-        target: 'http://localhost:8000',
+        target: 'http://sas.local',
         changeOrigin: true,
         secure: false,
     }

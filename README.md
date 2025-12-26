@@ -197,10 +197,10 @@ Make sure you have the following installed:
 
 7. **Start the development server:**
    ```bash
-   npm start
+   npm run dev
    ```
    
-   The app will open at: `http://localhost:3000`
+   The app will open at: `http://localhost:5173`
 
 ## 🎯 Usage Guide
 
